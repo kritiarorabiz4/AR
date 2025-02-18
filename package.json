@@ -1,0 +1,56 @@
+{
+  "name": "sample-ar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google/model-viewer": "^4.0.0",
+    "@pmndrs/xr": "^6.6.5",
+    "@react-three/drei": "^9.121.5",
+    "@react-three/fiber": "^8.17.14",
+    "@react-three/xr": "^6.6.5",
+    "@tensorflow-models/body-pix": "^2.2.1",
+    "@tensorflow-models/depth-estimation": "^0.0.4",
+    "@tensorflow/tfjs": "^4.22.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "cra-template": "1.2.0",
+    "html5-qrcode": "^2.3.8",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.3.5",
+    "react-scripts": "5.0.1",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.173.0",
+    "three-mesh-bvh": "^0.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-import-assertions": "^7.26.0",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1"
+  }
+}
